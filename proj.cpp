@@ -5,8 +5,6 @@
 ** Date: 5/3/25
 **
 ** This program is the proj.cpp file of Runescape Crafting Project.
-** This program plays the Runscape Crafting Game.
-** This allows the Hero to look, move, gather, craft, or display their inventory
 ** This file is the combination of all other files of this program 
 ** in order to play this simulation.
 **
