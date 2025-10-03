@@ -1,4 +1,4 @@
-Runescape Crafting Game
+#Runescape Crafting Game
 Overview
 
 This project is a text-based simulation of the Runescape Crafting Game. It allows a Hero character to explore, gather resources, craft items, and manage inventory. The game demonstrates object-oriented programming concepts, command handling, and game logic.
