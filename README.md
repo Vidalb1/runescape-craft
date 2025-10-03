@@ -1,36 +1,39 @@
-#Runescape Crafting Game
-Overview
+🎮 Runescape Crafting Game
 
-This project is a text-based simulation of the Runescape Crafting Game. It allows a Hero character to explore, gather resources, craft items, and manage inventory. The game demonstrates object-oriented programming concepts, command handling, and game logic.
+A text-based crafting game inspired by Runescape, built in C++.
 
-Problem it solves: Provides a simple, interactive way to practice programming fundamentals (classes, I/O, game loops).
+📝 Overview
+
+This project simulates the Runescape Crafting Game. The player controls a Hero who can explore, gather resources, craft items, and manage their inventory.
+
+Problem it solves: Provides a fun, interactive way to practice programming fundamentals (classes, OOP, file I/O, game loops).
 
 Who it helps: Students learning C++ and object-oriented design, or anyone interested in text-based game mechanics.
 
-Tech Stack
+🛠 Tech Stack
 
 Language: C++ (tested with g++)
 
 Environment: Linux platform
 
-Tools: Standard Template Library (STL), GNU Make, Valgrind (optional memory debugging)
+Libraries/Tools: Standard Template Library (STL), GNU Make, Valgrind (optional for memory debugging)
 
-Key Features
+✨ Key Features
 
-Hero actions: Look, move, gather, craft, display inventory
+Hero actions: look, move, gather, craft, display inventory
 
 Resource system: Collect and combine raw materials into crafted items
 
 Inventory management: Track resources and crafted goods dynamically
 
-Command interface: Interactive gameplay via text commands
+Command interface: Interactive text-based gameplay
 
-How to Run
+🚀 How to Run
 Requirements
 
 Linux environment with g++ and make installed
 
-Steps
+Build & Run
 # Clone the repository
 git clone https://github.com/Vidalb1/runescape-craft.git
 cd runescape-craft
@@ -48,35 +51,38 @@ make val1
 make clean
 
 
+Files:
+
 proj_map1.txt → Defines the game world map
 
 proj_craft.txt → Defines crafting recipes
 
-You can modify these text files to create new maps and recipes.
+You can modify these files to create custom maps and crafting recipes.
 
-Results
+📊 Results
 
-Functional crafting system inspired by Runescape
+Fully functional crafting system inspired by Runescape
 
-Modular codebase built with object-oriented design principles
+Modular codebase using object-oriented design principles
 
 Successfully compiles and runs on Linux platforms
-(Screenshots or terminal GIFs of gameplay would go here for extra polish)
 
-Next Steps
+Screenshots or terminal GIFs of gameplay can be added here for visual impact.
+
+🛣 Next Steps
 
 Add more crafting recipes and complex item trees
 
 Implement combat, NPCs, or trading mechanics
 
-Expand world with multiple maps
+Expand the game world with multiple maps
 
 Add save/load functionality for persistent progress
 
-Commit Style
+💾 Commit Style
 
-Commits: Small, descriptive messages (e.g., “Implement Area class with connections”)
+Commits: Small, descriptive messages (e.g., Implement Area class with connections)
 
-Branches: Use feature branches for new components (e.g., feature/crafting)
+Branches: Feature branches for new components (e.g., feature/crafting)
 
-Issues: Track bugs and TODOs with GitHub Issue
+Issues: Track bugs and TODOs using GitHub Issues
